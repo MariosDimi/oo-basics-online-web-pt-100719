@@ -6,8 +6,12 @@ class Shoe
     @brand = brand
   end
   
-  def repair(shoe)
+  def cobble(shoe)
     @shoe=shoe
     puts "The shoe is been repaired, good as new!"
   end
+  
 end
+
+shoe = Shoe.new 
+shoe.repair
