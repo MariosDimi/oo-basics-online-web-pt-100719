@@ -8,7 +8,7 @@ class Shoe
   
   def cobble(repaired)
     @cobble = repaired
-    puts "The shoe is been repaired!"
+    puts "Your shoe is as good as new!"
   end
   def cobble
     @cobble
