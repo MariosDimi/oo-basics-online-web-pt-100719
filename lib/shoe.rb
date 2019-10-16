@@ -12,6 +12,6 @@ class Shoe
   
   def cobble
     @cobble
+    puts "Your shoe is good as new!"
   end
-  
 end
