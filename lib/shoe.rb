@@ -6,7 +6,8 @@ class Shoe
     @brand = brand
   end
   
-  def shoe_repair
+  def repair(shoe)
+    @shoe=shoe
     puts "The shoe is been repaired, good as new!"
   end
 end
