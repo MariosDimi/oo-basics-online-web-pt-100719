@@ -15,3 +15,6 @@ class Shoe
     puts "Your shoe is good as new!"
   end
 end
+
+shoe =Shoe.new
+shoe.new
